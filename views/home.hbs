@@ -1,0 +1,22 @@
+<div>
+  <form action="/artist-search" method="GET">
+    {{!-- <label for="artist"></label>Search</form> --}}
+  {{!-- <input
+    type="search"
+    name="artist"
+    placeholder="Search by Artist"
+    id="search-artist"
+  /> --}}
+  <input
+    type="text"
+    id="search-artist"
+    name="artist"
+    {{! required }}
+    {{! minlength="0" }}
+    {{! maxlength="60" }}
+    {{! size="20" }}
+    placeholder="Lady Gaga"
+  />
+  {{!-- <input class="btn" type="submit" value="Search for an Artist" /> --}}
+  <button>Search for an Artist</button>
+</div>

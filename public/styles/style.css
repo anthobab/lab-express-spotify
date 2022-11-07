@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*    Album display */
+.album-img {
+  max-width: 10rem;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.tracks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.artist-div > a {
+  border-radius: 0.3rem;
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+}
